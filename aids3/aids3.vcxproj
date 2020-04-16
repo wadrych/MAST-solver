@@ -138,6 +138,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MASTSolver.cpp" />
+    <ClCompile Include="NodeQueue.cpp" />
+    <ClCompile Include="RootedTree.cpp" />
+    <ClCompile Include="ThirdCaseSolver.cpp" />
+    <ClCompile Include="TreeBuilder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MASTSolver.h" />
+    <ClInclude Include="NodeQueue.h" />
+    <ClInclude Include="RootedTree.h" />
+    <ClInclude Include="ThirdCaseSolver.h" />
+    <ClInclude Include="TreeBuilder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
